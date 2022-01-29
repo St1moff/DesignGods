@@ -1,0 +1,452 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #f6f6f6;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background: #f6f6f6;
+	padding: 22px 0 22px 0;
+}
+
+.header-container {
+	width: 90%;
+	margin: 0 auto; /*auto чтобы расположить посередине*/
+	display: flex;
+	justify-content: space-between; /*чтобы расположить по разные сторны лого и ссылки*/
+}
+
+.header-container a {
+	color: #000;
+	font-size: 16px;
+	padding: 27px 6px;
+	margin-right: 63px;
+}
+
+.header-container a:hover {
+	background: #ffea00;
+}
+
+#menu-checkbox {
+	display: none;
+}
+
+ul {
+	display: flex;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+							/*Начался мэин*/
+
+
+.help {
+	background: url('img/slider-bg.jpg') no-repeat ;
+	padding-top: 120px;
+	padding-bottom: 280px;
+}
+
+.top-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.top-slide h2 {
+	background: #ffea00;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+
+.top-slide:nth-child(2) {
+	margin-bottom: 10px;
+}
+
+.top-slide p {
+	font-size: 24px;
+	background: #414146;
+	display: inline;
+	color: #fff;
+	padding: 0 4px;
+}
+
+
+
+					/*Следуйщий блок*/
+
+
+
+.specialize-container {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.specialize-container h3 {
+	font-size: 35px;
+	color: #424147;
+	font: lighter;
+}
+
+.specialize-container p {
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	color: #424147;
+	font: lighter;
+}
+
+.card p {
+	font-size: 13px;
+	color: #fff;
+	padding: 30px 5px;
+	font-family: "Poppins";
+	font: bolder;
+}
+
+.top-card img:hover {
+	opacity: 0.9;
+}
+
+.bottom-card {
+	background: #414146;
+	position: relative;
+	top: -30px;
+
+}
+
+.specialize-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+						/*Портфолио*/
+
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio h4 {
+	background: #424147;
+	padding: 0 4px;
+	display: inline-block;
+	margin-left: 46.5%;
+	color: #f5e10a;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.portfolio p {
+	color: #424146;
+	font-size: 16px;
+	padding-bottom: 28px;
+}
+
+.toggles button {
+	border: none;
+	background: #f6f6f6;
+	color: #424146;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20 5px;
+	margin-bottom: 34px;
+}
+
+.toggles button:after {
+	content: "/"
+}
+
+.toggles button:last-child:after {
+	content: " "
+}
+
+.posts {
+	width: 90%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 0 auto;
+}
+
+.posts img {
+	width: 240px;
+	height: 200px;
+	padding-bottom: 10px;
+}
+
+.posts img:hover {
+	opacity: 0.9;
+}
+
+					/*Начался слайдер*/
+
+.brand-slider {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.brand-slider h4 {
+	background: #424147;
+	padding: 0 4px;
+	display: inline-block;
+	color: #f5e10a;
+	font-size: 18px;
+	margin-bottom: 30px;
+	margin-top: 35px;
+}
+
+.brand-slider p {
+	color: #424146;
+	font-size: 16px;
+	padding-bottom: 28px;
+	margin-bottom: 30px;
+}
+
+.brand-slider img {
+	margin-left: 20px;
+}
+
+						/*Футер*/
+
+footer {
+	background: #414146;
+	padding: 30px 0;
+	color: #fff; 
+	margin-top: 100px;
+}
+
+footer h4 {
+	font-size: 18px;
+}
+
+.footer-container {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 30% 35% 25%;
+	grid-column-gap: 3%;
+}
+
+.images {
+	margin-top: 10px;
+}
+
+.tweets p {
+	margin-top: 60px;
+}
+
+#name {
+	margin-top: 25px;
+}
+
+.tweets img {
+	margin-right: 10px;
+}
+
+
+.social-connect img{
+	margin-right: 0;
+}
+
+footer span {
+	color: #ffea00;
+}
+
+.about-us a {
+	background: #000;
+	border-bottom: 1px solid #ffea00;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+
+.about-us h4 {
+	margin-bottom: 25px;
+}
+
+.contact p {
+	margin-bottom: 32px;
+}
+
+.contact img {
+	margin-right: 10px;
+}
+
+.contact h4 {
+	margin-bottom: 25px;
+}
+
+input {
+	background: #414146;
+	border: none;
+	border-bottom: 1px solid #ffea00;
+	padding-top: 8px;
+	padding-right: 25px;
+	outline: none;
+	font-size: 18px;
+}
+
+
+.header-container2 {
+	width: 100%; 
+	background: #000;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-container2 a {
+	color: #fff;
+	font-size: 16px;
+	padding: 27px 6px;
+	margin: 0 auto; 
+}
+
+.header-container2 a:hover {
+	color: #ffea00;
+}
+
+
+
+
+
+
+@media screen and ( max-width: 600px ) {
+	.header-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 20px;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.main-menu li {
+		width: 100%;
+		display: block;
+		font-size: 12px;
+	}
+
+	.main-menu a {
+		display: block;
+		padding: 8px;
+	}
+
+	.toggle-button {
+		text-align: center;
+		display: block;
+		cursor: pointer;
+		color: #000;
+		margin-top: 20px;
+	}
+
+	.toggle-button:after {
+		content: attr(data-open);
+		display: block;
+	}
+
+	#menu-checkbox:checked +nav[role='navigation'] .main-menu{
+		display: block;
+	}
+
+	#menu-checkbox:checked +nav[role='navigation'] .toggle-button:after {
+	content: attr(data-close);
+	}
+
+	.header-container a{
+		margin-right: -65px;
+	}
+
+	.main-menu {
+		position: relative;
+		top: 30px;
+		right: 15px;
+	}
+}
+
+@media screen and ( max-width: 810px ) {
+	.header-container a{
+		font-size: 14px;
+		margin-right: 30px;
+		padding: 10px 3px;
+		margin-top: 15px;
+	}
+}
+
+@media screen and ( max-width: 1290px ) {
+	.specialize-cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and ( max-width: 640px ) {
+	.specialize-cards {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+
+@media screen and ( max-width: 1130px ) {
+	.posts {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}	
+}
+
+@media screen and ( max-width: 870px ) {
+	.posts {
+		display: grid;
+		grid-template-columns: auto  auto;
+	}	
+
+	.portfolio h4 {
+		margin-left: 41%;
+	}
+
+	footer {
+		display: none;
+	}
+
+}
+
+@media screen and ( max-width: 611px ) {
+	.posts {
+		display: grid;
+		grid-template-columns: auto;
+	}	
+}
+
+@media screen and ( max-width: 461px ){
+	.top-slide h2 {
+		font-size: 40px;
+	}
+
+	.footer2 {
+		display: none;
+	}
+}
